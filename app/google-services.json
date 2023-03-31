@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1071852877656",
+    "firebase_url": "https://mymessage2-cf729-default-rtdb.firebaseio.com",
+    "project_id": "mymessage2-cf729",
+    "storage_bucket": "mymessage2-cf729.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1071852877656:android:c3ff3417360ebcf0afd72d",
+        "android_client_info": {
+          "package_name": "com.halitbakir.peertopeermessage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1071852877656-qb3lm8qk8i7t5etibllcnbrvqdk9487e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.halitbakir.peertopeermessage",
+            "certificate_hash": "345ef7c174ee55d9e479746ab53b37cde2aff1f1"
+          }
+        },
+        {
+          "client_id": "1071852877656-752kdcka1tii0pfgki9reccdb4ltfpk3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvSjbSlmOlthAEsSFRcE0S9vHQ-B26ttc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1071852877656-752kdcka1tii0pfgki9reccdb4ltfpk3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

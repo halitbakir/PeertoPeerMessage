@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/adminMenuRefleshId"
+        android:orderInCategory="90"
+        android:title="Yenile"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/adminMenuPersonId"
+        android:title="Kişi ekle" />
+
+    <item
+        android:id="@+id/adminMenuPictureId"
+        android:title="Resimler" />
+
+
+    <item
+        android:id="@+id/adminMenuChronometreId"
+        android:title="Kronometre" />
+
+    <item
+        android:id="@+id/adminMenuVkiId"
+        android:title="Vücut Kitle İndeksi" />
+
+    <item
+        android:id="@+id/adminMenuInfoId"
+        android:title="Sistem Bilgileri" />
+
+    <item
+        android:id="@+id/adminMenuMailSendId"
+        android:title="Mail Bilgileri" />
+
+
+    <item
+        android:id="@+id/adminMenuLogoutId"
+        android:title="Çıkış" />
+
+</menu>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pc34"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingTop="18dp"
+    android:paddingRight="16dp"
+    android:paddingBottom="16dp"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true">
+
+        <!--main LinearLayout-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--circle image view-->
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/main_circleImageView_profile"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="10dp"
+                android:src="@drawable/icon" />
+
+            <!--email address-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:hint="@string/email"
+                app:boxBackgroundColor="#FFFFFF"
+                app:boxCornerRadiusBottomEnd="20dp"
+                app:boxCornerRadiusBottomStart="20dp"
+                app:boxCornerRadiusTopEnd="20dp"
+                app:boxCornerRadiusTopStart="20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/main_editText_email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <!--edit text password-->
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="12dp"
+                android:hint="@string/password"
+                app:boxBackgroundColor="#FFFFFF"
+                app:boxCornerRadiusBottomEnd="20dp"
+                app:boxCornerRadiusBottomStart="20dp"
+                app:boxCornerRadiusTopEnd="20dp"
+                app:boxCornerRadiusTopStart="20dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/main_editText_password"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <!--Login ve Register button-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--Login button-->
+                <Button
+                    android:id="@+id/main_button_login"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:text="@string/login" />
+
+                <!--forgot password-->
+                <TextView
+                    android:id="@+id/buttonForgotPassword"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#009688"
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/forgot_password"
+                    android:textColor="#FFFFFF" />
+
+                <!--Register Link-->
+                <TextView
+                    android:id="@+id/main_button_register"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="#009688"
+
+                    android:gravity="center"
+                    android:padding="4dp"
+                    android:text="@string/register"
+                    android:textColor="#FFFFFF" />
+            </LinearLayout>  <!--end button-->
+
+
+            <!--google ve telefonla giriş-->
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/main_button_googlesign"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="50dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/google" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/main_button_telephone"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/cellphone" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/socialLinkedinId"
+                    android:layout_width="50dp"
+                    android:layout_height="45dp"
+                    android:src="@drawable/linkedin" />
+
+            </LinearLayout>  <!--end button-->
+        </LinearLayout> <!--end linearLayout-->
+    </ScrollView><!--end main ScrollView-->
+</RelativeLayout><!--end main RelativeLayout-->

@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Peer To Peer Message</string>
+    <string name="email">Email address write...</string>
+    <string name="password">Password write...</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="google_signin">Google SıgnIn</string>
+    <string name="signin">SignIn</string>
+    <string name="telephone">Telephone</string>
+    <string name="admin_redirect">Admin Page Redirect</string>
+    <string name="admin_faile">Admin is not Page Redirect</string>
+    <string name="register_redirect">Register Page Redirect</string>
+    <string name="login_account">Login girişi yapıldı</string>
+    <string name="login_faile">Login girişi yapılamadı</string>
+    <string name="not_register">Üye kayıtı yapılamadı</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="submit">Gönder</string>
+
+
+    <!--VKI-->
+    <string name="sonuc">Sonuç</string>
+    <string name="boy">Boy</string>
+    <string name="kilo">Kilo</string>
+    <string name="cinsiyet">Cinsiyet</string>
+    <string name="ideal">İdeal</string>
+    <string name="bay">Bay</string>
+    <string name="bayan">Bayan</string>
+    <string name="zayif">Zayıf</string>
+    <string name="normal">Normal</string>
+    <string name="normalden_fazla">Normalden fazla</string>
+    <string name="fazla">Fazla</string>
+    <string name="obez">Obez</string>
+    <string name="obez_ustu">Obez üstü</string>
+
+</resources>
